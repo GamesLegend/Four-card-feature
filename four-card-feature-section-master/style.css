@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  background-color: hsl(0, 0%, 98%);
+}
+
+main {
+  max-width: 144rem;
+  margin: 3.2rem auto;
+  padding: 0 2.4rem;
+}
+
+.header-box {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 4.8rem;
+}
+
+.h1-thinner {
+  font-weight: 200;
+}
+
+.h1-thick {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+.header-p {
+  font-size: 2rem;
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.main-section {
+  /* margin-bottom: 2.4rem; */
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 3.2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 3.2rem 4.4rem 3.2rem;
+  box-shadow: 0 5px 1.5rem 0 hsl(229, 6%, 66%);
+  border-radius: 1rem;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+.supervisor-box {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-builder-box {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  margin-bottom: 3.2rem;
+}
+
+.karma-box {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator-box {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 2rem;
+}
+
+.main-p {
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+
+img {
+  margin-left: auto;
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+@media (max-width: 91.25em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 81.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 72.5em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 63.75em) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  .main {
+    max-width: 37.5rem;
+    padding: 0 1.4rem;
+  }
+
+  .boxes {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .box {
+    max-width: 47rem;
+  }
+
+  .header-p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 33.75em) {
+  .header-p {
+    width: auto;
+  }
+}
